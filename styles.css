@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 0px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.logo {
+    display: flex;
+    padding-top: 7px;
+    padding-right: 30px;
+    margin-left: -110px;
+}
+.menu-icon {
+    padding-left: 10px;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    background-color: #c9c9c9;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.kebab-menu .menu-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+    margin-right: -125px;
+    line-height: 1;
+}
+
+.user-options img {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.video-section {
+    padding-right: 20px;
+}
+
+.video-info h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.subscribe-button {
+    padding: 8px 12px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 270px;
+}
+
+.video-actions button {
+    background-color: #e6e6e6;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.channel-info img {
+    border-radius: 50%;
+}
+
+.video-description {
+    margin-top: 5px;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #555;
+}
+
+.recommended-videos span {
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.recommended-videos p {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.recommended-videos table {
+    width: 100%;
+    border-spacing: 0px;
+    margin-top: 0px;
+}
+
+.thumbnail {
+    border-radius: 8px;
+}
+
+.video-info p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.video-info span {
+    font-size: 1px;
+    color: #888;
+}
